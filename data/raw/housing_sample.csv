@@ -1,0 +1,6 @@
+id,title,price_eur,deposit_eur,district,room_type,size_sqm,furnished,distance_to_vilnius_tech_km,source,listing_url,updated_at
+1,Studio near Old Town,450,450,Old Town,studio,22,yes,2.1,Aruodas,https://example.com/1,2026-03-21
+2,Shared flat in Naujamiestis,320,320,Naujamiestis,shared,18,yes,1.8,Aruodas,https://example.com/2,2026-03-21
+3,One-room apartment in Zirmunai,390,390,Zirmunai,1_room,28,no,4.2,Domoplius,https://example.com/3,2026-03-21
+4,Student room in Sauletekis,280,280,Sauletekis,shared,14,yes,0.8,Facebook,https://example.com/4,2026-03-21
+5,Small apartment in Snipiskes,410,410,Snipiskes,studio,24,yes,3.0,Aruodas,https://example.com/5,2026-03-21
