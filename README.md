@@ -60,3 +60,7 @@ streamlit run app/streamlit_app.py
 - Add PostgreSQL support
 - Add FastAPI backend for future expansion
 - Improve table formatting and result detail view
+
+## Demo
+
+- App URL: https://vilnius-rent-analyzer.streamlit.app
