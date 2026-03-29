@@ -1,8 +1,8 @@
 # Vilnius Rent Analyzer
 
-Vilnius Rent Analyzer is a simple web app for comparing student housing options in Vilnius.
+Vilnius Rent Analyzer is a simple web app designed to help students compare housing options in Vilnius, especially those studying at VILNIUS TECH.
 
-This app allows users to filter rental listings by price, distance to VILNIUS TECH, district, room type, and furnished status. It also shows summary statistics and a bar chart of average rent by district.
+This project was built as a prototype to explore how data analysis can support decision-making when searching for housing.
 
 ## Features
 
@@ -34,6 +34,24 @@ This app allows users to filter rental listings by price, distance to VILNIUS TE
 ## Current Data
 
 The current version uses a sample CSV dataset for prototyping and UI development.
+
+## Purpose
+
+This project is part of my learning journey in Python and data analysis, focusing on building practical tools using real-world use cases.
+
+## How to Run
+
+1. Install dependencies:
+
+```bash
+pip install pandas streamlit
+```
+
+2. Run the app:
+
+```bash
+streamlit run app/streamlit_app.py
+```
 
 ## Future Improvements
 
