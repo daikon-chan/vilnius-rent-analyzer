@@ -1,28 +1,37 @@
 # Vilnius Rent Analyzer
 
-Vilnius Rent Analyzer is a simple web app designed to help students compare housing options in Vilnius, especially those studying at VILNIUS TECH.
+Vilnius Rent Analyzer is a web application that helps students find and compare rental apartments near VILNIUS TECH.
 
-This project was built as a prototype to explore how data analysis can support decision-making when searching for housing.
+The app uses real housing data to support decision-making based on price, distance, and other key factors.
 
 ## Features
 
+### Filtering
 - Filter listings by:
   - maximum rent
-  - maximum distance to VILNIUS TECH
+  - distance to VILNIUS TECH
   - district
   - room type
   - furnished / unfurnished
+
+### Sorting
 - Sort results by:
   - lowest rent
   - highest rent
   - nearest distance
   - largest size
-- View summary metrics:
-  - number of results
-  - average rent
-  - minimum rent
-  - maximum rent
-- View a bar chart of average rent by district
+
+### Data Visualization
+- Bar chart of average rent by district
+- Scatter plot of distance vs rent
+
+### Recommendation
+- Automatically suggests top 3 properties based on:
+  - rent
+  - distance
+
+### Usability
+- Clickable list of property links
 - Download filtered results as CSV
 
 ## Tech Stack
@@ -31,13 +40,27 @@ This project was built as a prototype to explore how data analysis can support d
 - pandas
 - Streamlit
 
-## Current Data
+## Data Source
 
-The current version uses a sample CSV dataset for prototyping and UI development.
+- Real housing data manually collected from:
+  - Aruodas (Lithuanian real estate platform)
+
+- Dataset includes:
+  - rent (EUR)
+  - distance to university (km)
+  - district
+  - room type
+  - size (sqm)
+  - furnished status
+  - listing URL
 
 ## Purpose
 
-This project is part of my learning journey in Python and data analysis, focusing on building practical tools using real-world use cases.
+This project was created to:
+
+- Practice Python and data analysis
+- Build a practical tool using real-world data
+- Improve skills in data processing, visualization, and UI design
 
 ## How to Run
 
@@ -50,16 +73,16 @@ pip install pandas streamlit
 2. Run the app:
 
 ```bash
-streamlit run app/streamlit_app.py
+streamlit run app/streamlit_app_real.py
 ```
 
 ## Future Improvements
 
-- Replace sample data with real housing listing data
+- Increase dataset size (100+ listings)
 - Add map-based visualization
-- Add PostgreSQL support
-- Add FastAPI backend for future expansion
-- Improve table formatting and result detail view
+- Automate data collection (scraping)
+- Add user preference weighting for recommendations
+- Improve UI desighn
 
 ## Demo
 
