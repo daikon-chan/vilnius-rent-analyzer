@@ -86,4 +86,4 @@ streamlit run app/streamlit_app_real.py
 
 ## Demo
 
-- App URL: https://vilnius-rent-analyzer.streamlit.app
+- App URL: https://vilnius-rent-analyzer-real.streamlit.app
