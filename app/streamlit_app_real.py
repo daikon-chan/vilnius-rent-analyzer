@@ -3,6 +3,12 @@ import streamlit as st
 
 st.title("Vilnius Rent Analyzer")
 
+st.write("## このアプリについて")
+st.caption("""
+このアプリは、VILNIUS TECH周辺の賃貸物件を比較しやすくするためのものです。
+家賃・距離・地区・部屋タイプ・家具の有無で絞り込みできます。
+おすすめスコアは、家賃と大学までの距離をもとに簡易的に計算しています。
+""")
 
 # --------------------
 # データ読み込みと整形
@@ -166,6 +172,8 @@ if len(filtered_df) > 0:
         top3[["title", "district", "monthly_rent_eur", "distance_to_vilnius_tech_km"]],
         hide_index=True
     )
+
+    st.caption("※ おすすめスコア = 家賃 + （距離 × 50）。小さいほどおすすめです。")
 
     # 絞り込み結果のデータフレームでの表示
     st.write("### 絞り込み結果")
