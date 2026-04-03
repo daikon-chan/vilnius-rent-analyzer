@@ -105,3 +105,12 @@ streamlit run app/streamlit_app_real.py
 ## Demo
 
 - App URL: https://vilnius-rent-analyzer-real.streamlit.app
+
+### Overview
+![Overview](assets/overview.png)
+
+### Analysis
+![Analysis](assets/analysis.png)
+
+### Results & Links
+![Results](assets/results.png)
