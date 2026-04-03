@@ -4,6 +4,11 @@ Vilnius Rent Analyzer is a web application that helps students find and compare 
 
 The app uses real housing data to support decision-making based on price, distance, and other key factors.
 
+## Target Users
+
+- Students looking for housing near VILNIUS TECH
+- Exchange students unfamiliar with Vilnius housing market
+
 ## Features
 
 ### Filtering
@@ -61,6 +66,19 @@ This project was created to:
 - Practice Python and data analysis
 - Build a practical tool using real-world data
 - Improve skills in data processing, visualization, and UI design
+
+## How to Use
+
+1. Set your maximum rent and distance
+2. Filter by district or room type
+3. Compare listings and check recommended properties
+4. Click links to view original listings
+
+## Limitations
+
+- Dataset is currently limited (around 20 listings)
+- Data collected manually (may not be fully up-to-date)
+- Recommendation is based only on rent and distance
 
 ## How to Run
 
