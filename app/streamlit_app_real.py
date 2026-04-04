@@ -33,8 +33,9 @@ def load_data():
     }).fillna("不明")
 
     df["room_type_label"] = df["room_type"].map({
-        "studio": "ワンルーム",
-        "1_room": "1LDK"
+        "1_room": "ワンルーム",
+        "2_rooms": "1LDK",
+        "3_rooms": "2LDK"
     }).fillna("不明")
 
     return df
