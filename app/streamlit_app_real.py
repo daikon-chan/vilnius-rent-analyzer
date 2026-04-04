@@ -63,7 +63,7 @@ st.sidebar.header("絞り込み条件")
 max_price = st.sidebar.slider("最大家賃を選んでください", 200, 800, 450)
 
 # 距離フィルター
-max_distance = st.sidebar.slider("大学までの最大距離（km）を選んでください", 0.0, 10.0, 5.0, 0.5)
+max_distance = st.sidebar.slider("大学までの最大距離（km）を選んでください", 0.0, 15.0, 5.0, 0.5)
 
 # district フィルター
 districts = ["すべて"] + sorted(df["district"].unique().tolist())
